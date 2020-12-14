@@ -1,0 +1,29 @@
+#!/bin/bash 
+
+echo -e " 更新源中....."
+apt-get update
+apt-get install -y dirmngr
+
+echo -e " 给kali更新源加key "
+apt-key adv --keyserver keyserver.ubuntu.com --recv-keys ED444FF07D8D0BF6
+
+echo -e "更换kali更新源 默认更新源是阿里镜像 "
+cat <<EOF > /etc/apt/sources.list
+#aliyun
+deb http://mirrors.aliyun.com/kali kali-rolling main non-free contrib
+deb-src http://mirrors.aliyun.com/kali kali-rolling main non-free contrib
+EOF
+
+echo -e " 更新系统并安装kali "
+apt-get update
+apt-get -y upgrade
+apt-get -y dist-upgrade
+apt-get -y autoremove --purge
+apt-get -y install kali-linux*
+
+echo -e "$清理垃圾中...."
+apt-get -y autoremove --purge
+apt-get clean
+echo -e " 接下来会重启一下"
+reboot
+echo Done.
