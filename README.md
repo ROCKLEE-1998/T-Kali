@@ -4,6 +4,6 @@
 支持云服务器安装，后续会新增vnc图形化界面
 使用方法:apt update && apt install git -y && git clone https://github.com/ROCKLEE-1998/T-Kali.git && cd T-Kali/ &&chmod +x install.sh &&./install.sh
 谢谢青山师傅的文章给的灵感和建议，参考文章http://8io.io/archives/31
-邮箱：
+如有其他建议请联系邮箱：
 zhantang233@gmail.com
 
