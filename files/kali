@@ -37,7 +37,7 @@ do
 		  apt-get install xfce4 xfce4-goodies xorg lxde-core tightvncserver -y --allow-unauthenticated
 		vncserver
 		vncserver -kill :1
-		sed -i '171i $localhost="no"; /etc/vnc.conf' /etc/vnc.conf   #开放监听地址，不再仅限本地使用
+		sed -i '171i $localhost="no"; ' /etc/vnc.conf   #开放监听地址，不再仅限本地使用
 		chmod +x /etc/vnc.conf
 		mv ~/.vnc/xstartup ~/.vnc/xstartup.bak
 		echo "#!/bin/bash
