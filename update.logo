@@ -1,0 +1,1 @@
+2020/12/15     version=1.21    本次更新修复T-Kali/files/kali line40中sed -i '171i $localhost="no"; ' /etc/vnc.conf   注解错误
