@@ -5,7 +5,7 @@ function main(){
 	ORANGE='\033[01;38;5;166m'
 	GREEN='\033[01;38;5;118m'
 	echo -e "                                        ${RED}T-Kail${WHITE}"
-	echo -e "                                    ${RED}(Version - 1.O)                                "
+	echo -e "                                    ${RED}(Version - 1.2)                                "
 	echo -e "                                  ${ORANGE}亲测Debian及乌班图20                                    "
 	echo -e "                            ${ORANGE}如有报错 错的不是我而是这个世界                         "
 	echo -e "                                     ${ORANGE} 测试版本                     "
