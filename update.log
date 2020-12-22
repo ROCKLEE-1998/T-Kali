@@ -1,1 +1,3 @@
 2020/12/15     version=1.21    本次更新修复T-Kali/files/kali line40中sed -i '171i $localhost="no"; ' /etc/vnc.conf   注解错误
+
+2020/12/22     version=2.24    本次更新添加工具：acunetix_13.0.201126145，cobaltstrike4.1
