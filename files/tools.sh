@@ -28,7 +28,7 @@ case $num1 in
     ;;
     3)
     echo -e "\033[32m >>>返回主界面 -> \033[0m"
-    cd ..
+   
     ./install.sh
     ;;
     Q|q)
