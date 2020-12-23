@@ -6,6 +6,7 @@ cat <<EOF
 -----------------------------------
 >>>T-KALI:
 `echo -e " version:2.2 " `
+`echo -e " 如果报错，错的不是我，而是整个世界 " `
 `echo -e " debian && Ubuntu20 " `
 `echo -e "\033[35m 1) install kali \033[0m"`
 `echo -e "\033[35m 2) install tools \033[0m"`
